@@ -5,18 +5,13 @@
  *
  * Return: return 0 if successful or 1 if failed
  */
+
 int main(void)
 {
-int a;
-char b;
-float c;
-long int d;
-long long int e;
-
-printf("size of a int: %lu byte(s)\n", (sizeof(a)));
-printf("size of a char: %lu byte(s)\n", (sizeof(b)));
-printf("size of a fload: %lu byte(s)\n", (sizeof(c)));
-printf("size of a long int: %lu byte(s)\n", (sizeof(d)));
-printf("size of a long long int: %lu byte(s)\n", (sizeof(e)));
-Return (0);
+printf("size of a char: %lu byte(s)", sizeof(char));
+printf("size of a int: %lu byte(s)", sizeof(int));
+printf("size of a long int: %lu byte(s)", sizeof(long int));
+printf("size of a long long int: %lu byte(s)", sizeof(long long int));
+printf("size of a float: %lu byte(s)", sizeof(float));
+Return(0);
 }
